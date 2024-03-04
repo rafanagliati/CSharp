@@ -1,0 +1,20 @@
+using Sustem;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace aula_01
+{
+    class Program
+    {
+        static void Main (string [] args)
+        {
+            int metros =0;
+            int resultadoCentimetros = 0;
+            int resultadoMilimetros = 0;
+
+            Console.WriteLine("Digite o valor em metros: ");
+            Console.ReadKey():
+        }
+    }
+}
