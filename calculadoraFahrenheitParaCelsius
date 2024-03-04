@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace aula_01_exercicio2
+{
+    class Program
+    {
+        static void Main (string [] args)
+        {
+           double Fahrenheit = 0;
+           double resultadoCelsius = 0;
+
+           Console.WritenLine("Digite o valor em Fahrenheit: ");
+           Fahrenheit = Convert.ToInt16(Console.ReadLine());
+           resultadoCelsius = (Fahrenheit - 32.0) * (5.0 /9.0);
+
+           Console.WritenLine("O valor em celsius é: " + resultadoCelsius);
+           Console.ReadKey ();
+        }
+    }
+}
